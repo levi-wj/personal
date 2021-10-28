@@ -1,0 +1,6 @@
+With this website, I will create an impressive personal portfolio.
+It will show my previous experience, current projects, and information about who I am.
+The focus will be on my technical abilities and employability.
+Have you ever wondered how web developers apply to jobs?
+If you google 'web dev portfolios', you will find articles with tons of examples of people who have made incredible websites, that show off not only their hard skills but their creativity as well.
+That's what I aim to do here. Create a web portfolio that is intriguing, impressive, and informational.
