@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Work+Sans&display=swap');
+
+:root {
+    --dark-darker: #292929;
+    --dark: #333333;
+    --dark-column: #3b3b3b;
+    --dark-lighter: #4b4b4b;
+    --dark-lightest: #575656;
+    --text: #e9e9e9;
+    --primary: #fffc4d;
+    --primary-lighter: #fffebb;
+}
+
+body {
+    background-color: var(--dark-darker);
+    color: var(--text);
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary-lighter);
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: xxx-large;
+    border-left: .08em solid var(--primary);
+    padding-left: .2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+}
