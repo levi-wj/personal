@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="css/headerfooter.css">
+    <link rel="stylesheet" href="css/about.css">
+    <script src="js/slides.js"></script>
+    <title>Levi Jones</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="resume.html">Resumé</a>
+        <a href="projects.html">Projects</a>
+    </header>
+
+    <main>
+        <div class="maincol">
+            <div id="slides">
+                <div class="slide">
+                    <img src="#" alt="Picture of me">
+                    <h1>About Me</h1>
+                    <p>
+                        I am a full stack web developer with a passion for learning and creative problem solving. I have a background in web development, cgi backends, and mysql. and I am currently pursuing a degree in Computer Information Technology. I am 
+                        looking for a position in the software development field.
+                    </p>
+                </div>
+                <div class="slide hidden">
+                    <img src="img/web-trifecta_html5.svg" alt="Web Technologies">
+                    <h1>HTML, CSS, and JS</h1>
+                    <p>
+                        I have extensive experience with writing function webpages from scratch in HTML, CSS, and JavaScript. I have used JavaScript to interact with front-end and back-end apis and have created many responsive websites..
+                    </p>
+                </div>
+                <div class="slide hidden">
+                    <img src="img/c.png" alt="C Programming Language">
+                    <h1>C Programming</h1>
+                    <p>
+                        At Medical Informatics Engineering I have used C to do CGI programming, making scripts that output webpages and interact with mysql databases.
+                    </p>
+                </div>
+                <div class="slide hidden">
+                    <img src="img/python.png" alt="Python Programming Language">
+                    <h1>Python</h1>
+                    <p>
+                        I have experience in python from writing scripts, developing unit tests using Selenium Webdriver, and creating video games using pygame.
+                    </p>
+                </div>
+                <div class="slide hidden">
+                    <img src="img/cs.svg" alt="C# Programming Language">
+                    <h1>C# And Unity</h1>
+                    <p>
+                        I've used Unity3D and C# to create games for multiple platforms, such as for Windows and Android.
+                    </p>
+                </div>
+            </div>
+            <button class="slideshowButton" onclick="slides.changeSlide(-1)">&#10094;</button>
+            <button class="slideshowButton" onclick="slides.changeSlide(1)">&#10095;</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; Levi Jones 2021</p>
+        <a href="siteplan/siteplan.html">Site Plan</a>
+    </footer>
+</body>
+</html>

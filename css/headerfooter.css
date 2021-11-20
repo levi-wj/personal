@@ -1,3 +1,4 @@
+/* Header */
 header {
     margin: 0;
     width: 100%;
@@ -20,7 +21,27 @@ header a {
 }
 
 header a:hover {
-    border-bottom: .2em solid var(--primary);
+    border-bottom: .2em solid var(--primary) !important;
     background-color: var(--dark-lightest);
     text-decoration: none;
+}
+
+header a.active {
+    background-color: var(--dark-lightest);
+    border-bottom: .1em solid var(--primary);
+}
+
+/* Footer */
+footer {
+    background-color: var(--dark-lighter);
+    padding: 1em;
+}
+
+/* Body */
+.maincol {
+    max-width: 85%;
+    margin: 2em auto;
+    padding: 1em 3em 3em 2em;
+    background-color: var(--dark-column);
+    border-radius: 10px;
 }

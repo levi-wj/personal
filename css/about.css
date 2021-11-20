@@ -1,7 +1,22 @@
-.maincol {
-    max-width: 85%;
-    margin: 2em auto;
-    padding: 1em 3em 3em 2em;
-    background-color: var(--dark-column);
-    border-radius: 10px;
+#slides {
+    height: 30em;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.slideshowButton {
+    cursor: pointer;
+    font-size: x-large;
+    background-color: transparent;
+    border: 1px solid var(--dark-lightest);
+    color: var(--text);
+    padding: .5em;
+    border-radius: 10%;
+}
+
+.slideshowButton:hover {
+    background-color: #fdfdfd2f;
 }

@@ -1,0 +1,14 @@
+#contact {
+    width: 50%;
+    margin: .5em auto;
+}
+
+.contactInput {
+    padding: .5em;
+    background-color: transparent;
+    color: var(--text);
+    border-radius: .2em;
+    border: 1px solid var(--text);
+    width: 75%;
+    margin: .5em;
+}
