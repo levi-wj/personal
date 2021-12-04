@@ -30,8 +30,6 @@ a:hover {
 
 h1 {
     font-size: xxx-large;
-    border-left: .08em solid var(--primary);
-    padding-left: .2em;
 }
 
 h1, h2, h3, h4, h5, h6 {
