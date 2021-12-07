@@ -128,17 +128,3 @@
         opacity: 1;
     }
 }
-
-.fade-down {
-    animation: fade-down .5s linear;
-}
-@keyframes fade-down {
-    0% {
-        transform: translateY(-50%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
