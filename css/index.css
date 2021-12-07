@@ -28,8 +28,12 @@
     background-color: #492277;
 }
 
-.slide.lblue{
+.slide.lblue {
     background-color: #7dadda;
+}
+
+.slide.navy {
+    background-color: #30415a;
 }
 
 .scrollshow .leftcol {
@@ -46,6 +50,10 @@
     align-content: center;
     min-height: 100vh;
     padding: 1em;
+}
+
+.scrollshow .slide.wide {
+    grid-template-columns: 2fr 1fr 1fr;
 }
 
 .slideshowButton {
@@ -113,6 +121,20 @@
 @keyframes fade-up {
     0% {
         transform: translateY(50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fade-down {
+    animation: fade-down .5s linear;
+}
+@keyframes fade-down {
+    0% {
+        transform: translateY(-50%);
         opacity: 0;
     }
     100% {

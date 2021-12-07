@@ -1,7 +1,9 @@
 .card {
-    margin: 1em;
+    margin: 1em auto;
     width: 80%;
     background-color: var(--dark-lighter);
     border-radius: .5em;
     padding: 1em;
+    border: solid var(--dark-lightest);
+    box-shadow: 2px 2px 0px black;
 }
