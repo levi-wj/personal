@@ -33,7 +33,7 @@ header a.active {
 
 /* Footer */
 footer {
-    background-color: var(--dark-lighter);
+    background-color: var(--dark);
     padding: 1em;
 }
 
