@@ -4,22 +4,6 @@
     text-align: center;
 }
 
-#sendbtn {
-    padding: 1em;
-    border-radius: .5em;
-    background-color: var(--dark-lighter);
-    color: var(--text);
-    border: 1px solid var(--text);
-    cursor: pointer;
-    margin-top: 2em;
-}
-
-#sendbtn:hover {
-    color: var(--primary);
-    border-color: var(--primary);
-    background-color: var(--dark-lightest);
-}
-
 .contactInput {
     padding: .5em;
     background-color: transparent;

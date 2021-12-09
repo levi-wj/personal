@@ -45,3 +45,20 @@ footer {
     background-color: var(--dark-column);
     border-radius: 10px;
 }
+
+.btn {
+    padding: 1em;
+    border-radius: .5em;
+    background-color: var(--dark-lighter);
+    color: var(--text);
+    border: 1px solid var(--text);
+    cursor: pointer;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.btn:hover {
+    color: var(--primary);
+    border-color: var(--primary);
+    background-color: var(--dark-lightest);
+}
