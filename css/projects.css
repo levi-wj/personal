@@ -7,3 +7,16 @@
     border: solid var(--dark-lightest);
     box-shadow: 2px 2px 0px black;
 }
+
+.card:hover {
+    box-shadow: 4px 4px 2px black;
+}
+
+.card a img:hover {
+    width: 55px;
+}
+
+.card h2 {
+    border-left: 3px solid var(--primary);
+    padding-left: .25em;
+}
